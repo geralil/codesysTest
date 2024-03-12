@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.4.0.0" runtimeid="3.5.19.2" libversion="4.4.0.0" compiler="3.5.19.60" lmm="3.5.19.60" profile="CODESYS V3.5 SP19 Patch 6+" settings="SupportOPCUA, EnableDirectIoAccess, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="AWS_Wago" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeArray name="T_ARRAY__0__12287__OF_WORD" size="0" nativesize="24576" typeclass="Array" iecname="ARRAY [0..12287] OF WORD" basetype="T_WORD">
+      <ArrayDim minrange="0" maxrange="12287" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__16383__OF_DWORD" size="0" nativesize="65536" typeclass="Array" iecname="ARRAY [0..16383] OF DWORD" basetype="T_DWORD">
+      <ArrayDim minrange="0" maxrange="16383" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__24575__OF_BYTE" size="0" nativesize="24576" typeclass="Array" iecname="ARRAY [0..24575] OF BYTE" basetype="T_BYTE">
+      <ArrayDim minrange="0" maxrange="24575" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__24575__OF_IecVarAccessLibrary_SymbolicVarsBase_DirectIOBits8" size="0" nativesize="24576" typeclass="Array" iecname="ARRAY [0..24575] OF IecVarAccessLibrary.SymbolicVarsBase.DirectIOBits8" basetype="T_DirectIOBits8">
+      <ArrayDim minrange="0" maxrange="24575" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__3071__OF_LWORD" size="0" nativesize="24576" typeclass="Array" iecname="ARRAY [0..3071] OF LWORD" basetype="T_LWORD">
+      <ArrayDim minrange="0" maxrange="3071" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__32767__OF_WORD" size="0" nativesize="65536" typeclass="Array" iecname="ARRAY [0..32767] OF WORD" basetype="T_WORD">
+      <ArrayDim minrange="0" maxrange="32767" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__6143__OF_DWORD" size="0" nativesize="24576" typeclass="Array" iecname="ARRAY [0..6143] OF DWORD" basetype="T_DWORD">
+      <ArrayDim minrange="0" maxrange="6143" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__65535__OF_BYTE" size="0" nativesize="65536" typeclass="Array" iecname="ARRAY [0..65535] OF BYTE" basetype="T_BYTE">
+      <ArrayDim minrange="0" maxrange="65535" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__65535__OF_IecVarAccessLibrary_SymbolicVarsBase_DirectIOBits8" size="0" nativesize="65536" typeclass="Array" iecname="ARRAY [0..65535] OF IecVarAccessLibrary.SymbolicVarsBase.DirectIOBits8" basetype="T_DirectIOBits8">
+      <ArrayDim minrange="0" maxrange="65535" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__8191__OF_LWORD" size="0" nativesize="65536" typeclass="Array" iecname="ARRAY [0..8191] OF LWORD" basetype="T_LWORD">
+      <ArrayDim minrange="0" maxrange="8191" />
+    </TypeArray>
+    <TypeUserDef name="T_DirectIOBits8" size="0" nativesize="1" typeclass="Userdef" pouclass="STRUCTURE" iecname="DirectIOBits8">
+      <UserDefElement iecname="x0" type="T_BIT_X_0" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="x1" type="T_BIT_X_1" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="x2" type="T_BIT_X_2" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="x3" type="T_BIT_X_3" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="x4" type="T_BIT_X_4" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="x5" type="T_BIT_X_5" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="x6" type="T_BIT_X_6" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="x7" type="T_BIT_X_7" byteoffset="0" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Element" size="0" nativesize="24" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="Element" />
+    <TypeUserDef name="T_Fanuc_Feedback_UDT" size="0" nativesize="0" typeclass="Userdef" pouclass="STRUCTURE" iecname="Fanuc_Feedback_UDT" />
+    <TypeUserDef name="T_FbDrmValidation" size="0" nativesize="4" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="FbDrmValidation" />
+    <TypeUserDef name="T_IoDrvBase" size="0" nativesize="276" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="IoDrvBase" />
+    <TypeUserDef name="T_UR_Feedback_UDT" size="0" nativesize="0" typeclass="Userdef" pouclass="STRUCTURE" iecname="UR_Feedback_UDT" />
+    <TypeSimple name="T_BIT_X_0" size="0" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="0" />
+    <TypeSimple name="T_BIT_X_1" size="0" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="1" />
+    <TypeSimple name="T_BIT_X_2" size="0" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="2" />
+    <TypeSimple name="T_BIT_X_3" size="0" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="3" />
+    <TypeSimple name="T_BIT_X_4" size="0" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="4" />
+    <TypeSimple name="T_BIT_X_5" size="0" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="5" />
+    <TypeSimple name="T_BIT_X_6" size="0" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="6" />
+    <TypeSimple name="T_BIT_X_7" size="0" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="7" />
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_BYTE" size="1" swapsize="1" typeclass="Byte" iecname="BYTE" />
+    <TypeSimple name="T_DINT" size="4" swapsize="4" typeclass="DInt" iecname="DINT" />
+    <TypeSimple name="T_DWORD" size="4" swapsize="4" typeclass="DWord" iecname="DWORD" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
+    <TypeSimple name="T_LWORD" size="0" swapsize="0" typeclass="LWord" iecname="LWORD" />
+    <TypeSimple name="T_STRING" size="81" swapsize="0" typeclass="String" iecname="STRING" />
+    <TypeSimple name="T_STRING_20_" size="21" swapsize="0" typeclass="String" iecname="STRING(20)" />
+    <TypeSimple name="T_TIME" size="4" swapsize="4" typeclass="Time" iecname="TIME" />
+    <TypeSimple name="T_UDINT" size="4" swapsize="4" typeclass="UDInt" iecname="UDINT" />
+    <TypeSimple name="T_UINT" size="2" swapsize="2" typeclass="UInt" iecname="UINT" />
+    <TypeSimple name="T_USINT" size="1" swapsize="1" typeclass="USInt" iecname="USINT" />
+    <TypeSimple name="T_WORD" size="2" swapsize="2" typeclass="Word" iecname="WORD" />
+    <TypeArray name="T_ARRAY__0__13__OF_BOOL" size="14" nativesize="14" typeclass="Array" iecname="ARRAY [0..13] OF BOOL" basetype="T_BOOL">
+      <ArrayDim minrange="0" maxrange="13" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__4__OF_BOOL" size="5" nativesize="5" typeclass="Array" iecname="ARRAY [0..4] OF BOOL" basetype="T_BOOL">
+      <ArrayDim minrange="0" maxrange="4" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__5__OF_BOOL" size="6" nativesize="6" typeclass="Array" iecname="ARRAY [0..5] OF BOOL" basetype="T_BOOL">
+      <ArrayDim minrange="0" maxrange="5" />
+    </TypeArray>
+    <TypeUserDef name="T_AdapterState" size="2" nativesize="2" swapsize="2" typeclass="Enum" iecname="AdapterState" basetype="T_INT">
+      <UserDefElement type="T_AdapterState" iecname="DISABLED" enumvalue="0" />
+      <UserDefElement type="T_AdapterState" iecname="NOT_CONFIGURED" enumvalue="1" />
+      <UserDefElement type="T_AdapterState" iecname="IP_CONFIG" enumvalue="2" />
+      <UserDefElement type="T_AdapterState" iecname="ENCAPSULATION_CONFIG" enumvalue="3" />
+      <UserDefElement type="T_AdapterState" iecname="LIST_SERVICES" enumvalue="4" />
+      <UserDefElement type="T_AdapterState" iecname="REGISTER_SESSION" enumvalue="5" />
+      <UserDefElement type="T_AdapterState" iecname="PARAMETER_CONFIG" enumvalue="6" />
+      <UserDefElement type="T_AdapterState" iecname="CONFIGURED" enumvalue="7" />
+      <UserDefElement type="T_AdapterState" iecname="RUNNING" enumvalue="8" />
+      <UserDefElement type="T_AdapterState" iecname="IDLE" enumvalue="9" />
+      <UserDefElement type="T_AdapterState" iecname="RESET" enumvalue="10" />
+      <UserDefElement type="T_AdapterState" iecname="RESET_SERVICE" enumvalue="11" />
+      <UserDefElement type="T_AdapterState" iecname="CONNECTIVITY_CHECK" enumvalue="12" />
+      <UserDefElement type="T_AdapterState" iecname="BUS_ERROR" enumvalue="13" />
+      <UserDefElement type="T_AdapterState" iecname="ERROR" enumvalue="14" />
+    </TypeUserDef>
+    <TypeUserDef name="T_ERROR" size="2" nativesize="2" swapsize="2" typeclass="Enum" iecname="ERROR" basetype="T_INT">
+      <UserDefElement type="T_ERROR" iecname="NO_ERROR" enumvalue="0" />
+      <UserDefElement type="T_ERROR" iecname="INVALID_COMMAND" enumvalue="1" />
+      <UserDefElement type="T_ERROR" iecname="OUT_OF_MEMORY" enumvalue="2" />
+      <UserDefElement type="T_ERROR" iecname="INVALID_DATA" enumvalue="3" />
+      <UserDefElement type="T_ERROR" iecname="INVALID_SESSION_HANDLE" enumvalue="100" />
+      <UserDefElement type="T_ERROR" iecname="INVALID_LENGTH" enumvalue="101" />
+      <UserDefElement type="T_ERROR" iecname="UNSUPPORTED_PROTOCOL_VERSION" enumvalue="105" />
+      <UserDefElement type="T_ERROR" iecname="NBS_ERROR" enumvalue="170" />
+      <UserDefElement type="T_ERROR" iecname="NBS_RCV_ERROR" enumvalue="171" />
+      <UserDefElement type="T_ERROR" iecname="NBS_SND_ERROR" enumvalue="172" />
+      <UserDefElement type="T_ERROR" iecname="ENCAPSULATION_ERROR" enumvalue="173" />
+      <UserDefElement type="T_ERROR" iecname="TCPIP_CONFIG_ERROR" enumvalue="174" />
+      <UserDefElement type="T_ERROR" iecname="UDP_CONFIG_ERROR" enumvalue="175" />
+      <UserDefElement type="T_ERROR" iecname="UDP_RECV_ERROR" enumvalue="176" />
+      <UserDefElement type="T_ERROR" iecname="UDP_SEND_ERROR" enumvalue="177" />
+      <UserDefElement type="T_ERROR" iecname="UDP_CLOSE_ERROR" enumvalue="178" />
+      <UserDefElement type="T_ERROR" iecname="NULL_POINTER" enumvalue="179" />
+      <UserDefElement type="T_ERROR" iecname="DEVICE_STATE_ERROR" enumvalue="180" />
+      <UserDefElement type="T_ERROR" iecname="RECONFIGURATION_FAILED" enumvalue="181" />
+      <UserDefElement type="T_ERROR" iecname="PERFORMANCE_MONITOR_DISABLED" enumvalue="182" />
+      <UserDefElement type="T_ERROR" iecname="INVALID_MEASURING_POINT" enumvalue="183" />
+      <UserDefElement type="T_ERROR" iecname="IP_CONFIG_ERROR" enumvalue="184" />
+    </TypeUserDef>
+    <TypeUserDef name="T_EthernetState" size="2" nativesize="2" swapsize="2" typeclass="Enum" iecname="EthernetState" basetype="T_INT">
+      <UserDefElement type="T_EthernetState" iecname="NOT_CONFIGURED" enumvalue="0" />
+      <UserDefElement type="T_EthernetState" iecname="CONFIGURED" enumvalue="1" />
+      <UserDefElement type="T_EthernetState" iecname="DISCONNECTED" enumvalue="2" />
+      <UserDefElement type="T_EthernetState" iecname="RUNNING" enumvalue="3" />
+      <UserDefElement type="T_EthernetState" iecname="ERROR" enumvalue="4" />
+      <UserDefElement type="T_EthernetState" iecname="SET_IP_ERROR" enumvalue="5" />
+    </TypeUserDef>
+    <TypeUserDef name="T_IoDrvModbusTCPSlave" size="13" nativesize="22160" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="IoDrvModbusTCPSlave" basetype="T_IoDrvBase">
+      <UserDefElement iecname="xEnable" type="T_BOOL" byteoffset="0" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="xOnline" type="T_BOOL" byteoffset="1" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="xInternalError" type="T_BOOL" byteoffset="2" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="ErrorCode" type="T_UDINT" byteoffset="4" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="Port" type="T_UINT" byteoffset="8" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="uiClientConnections" type="T_UINT" byteoffset="10" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="xTimeout" type="T_BOOL" byteoffset="12" vartype="VAR_OUTPUT" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Light_Stack_State_UDT" size="5" nativesize="6" typeclass="Userdef" pouclass="STRUCTURE" iecname="Light_Stack_State_UDT">
+      <UserDefElement iecname="Operating_Hours" type="T_INT" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Green" type="T_BOOL" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Amber" type="T_BOOL" byteoffset="3" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Red" type="T_BOOL" byteoffset="4" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Manual_Motor_UDT" size="5" nativesize="6" typeclass="Userdef" pouclass="STRUCTURE" iecname="Manual_Motor_UDT">
+      <UserDefElement iecname="Enable" type="T_BOOL" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Speed" type="T_UINT" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Run" type="T_BOOL" byteoffset="4" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Motor_Feedback_UDT" size="10" nativesize="10" typeclass="Userdef" pouclass="STRUCTURE" iecname="Motor_Feedback_UDT">
+      <UserDefElement iecname="RealSpeed" type="T_UINT" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Current" type="T_UINT" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Frequency" type="T_UINT" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Temp" type="T_UINT" byteoffset="6" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Fault" type="T_UINT" byteoffset="8" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Motor_UDT" size="15" nativesize="16" typeclass="Userdef" pouclass="STRUCTURE" iecname="Motor_UDT">
+      <UserDefElement iecname="RealSpeed" type="T_UINT" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Current" type="T_UINT" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Frequency" type="T_UINT" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Temp" type="T_UINT" byteoffset="6" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Fault" type="T_UINT" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Run" type="T_BOOL" byteoffset="10" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Speed" type="T_UINT" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Reset" type="T_BOOL" byteoffset="14" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeSimple name="T_POINTER_TO_BYTE" size="4" swapsize="4" typeclass="Pointer" iecname="POINTER TO BYTE" />
+    <TypeSimple name="T_POINTER_TO_IoConfigChannelMap" size="4" swapsize="4" typeclass="Pointer" iecname="POINTER TO IoConfigChannelMap" />
+    <TypeSimple name="T_POINTER_TO_IoConfigConnectorMap" size="4" swapsize="4" typeclass="Pointer" iecname="POINTER TO IoConfigConnectorMap" />
+    <TypeSimple name="T_POINTER_TO_IoConfigParameter" size="4" swapsize="4" typeclass="Pointer" iecname="POINTER TO IoConfigParameter" />
+    <TypeSimple name="T_POINTER_TO_IoConfigTaskMap" size="4" swapsize="4" typeclass="Pointer" iecname="POINTER TO IoConfigTaskMap" />
+    <TypeSimple name="T_POINTER_TO_IoStandard_IoConfigConnector" size="4" swapsize="4" typeclass="Pointer" iecname="POINTER TO IoStandard.IoConfigConnector" />
+    <TypeSimple name="T_RTS_IEC_RESULT" size="4" swapsize="4" typeclass="UDInt" iecname="RTS_IEC_RESULT" aliasedtype="T_UDINT" aliasediecname="UDINT" />
+    <TypeUserDef name="T_ScannerState" size="2" nativesize="2" swapsize="2" typeclass="Enum" iecname="ScannerState" basetype="T_INT">
+      <UserDefElement type="T_ScannerState" iecname="INITIALIZING" enumvalue="0" />
+      <UserDefElement type="T_ScannerState" iecname="DISABLED" enumvalue="1" />
+      <UserDefElement type="T_ScannerState" iecname="IP_CONFIG" enumvalue="2" />
+      <UserDefElement type="T_ScannerState" iecname="UDP_CONFIG" enumvalue="3" />
+      <UserDefElement type="T_ScannerState" iecname="ENCAPSULATION_CONFIG" enumvalue="4" />
+      <UserDefElement type="T_ScannerState" iecname="ADAPTER_CONFIG" enumvalue="5" />
+      <UserDefElement type="T_ScannerState" iecname="OPEN_CONNECTIONS" enumvalue="6" />
+      <UserDefElement type="T_ScannerState" iecname="RUNNING" enumvalue="7" />
+      <UserDefElement type="T_ScannerState" iecname="DIAGNOSTIC_AVAILABLE" enumvalue="8" />
+      <UserDefElement type="T_ScannerState" iecname="BUS_ERROR" enumvalue="9" />
+      <UserDefElement type="T_ScannerState" iecname="RESET" enumvalue="10" />
+      <UserDefElement type="T_ScannerState" iecname="ERROR" enumvalue="11" />
+      <UserDefElement type="T_ScannerState" iecname="UPDATE_CONFIGURATION" enumvalue="12" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Station_Control_FB" size="33" nativesize="40" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="Station_Control_FB">
+      <UserDefElement iecname="Active" type="T_BOOL" byteoffset="0" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Mode" type="T_INT" byteoffset="2" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Photo_Eye" type="T_BOOL" byteoffset="4" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="RFID_Number" type="T_UINT" byteoffset="6" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Process_Complete" type="T_BOOL" byteoffset="8" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Timeout" type="T_TIME" byteoffset="12" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Conveyance_Fault" type="T_BOOL" byteoffset="16" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Reset" type="T_BOOL" byteoffset="17" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Loaded" type="T_BOOL" byteoffset="18" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="Loaded_Frame_Num" type="T_INT" byteoffset="20" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="Station_Process_Complete" type="T_BOOL" byteoffset="22" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="Run_Process" type="T_BOOL" byteoffset="23" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="Process_Time" type="T_TIME" byteoffset="24" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="Production_Count" type="T_INT" byteoffset="28" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="Light_Stack" type="T_INT" byteoffset="30" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="Station_Fault" type="T_BOOL" byteoffset="32" vartype="VAR_OUTPUT" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Station_UDT" size="6" nativesize="6" typeclass="Userdef" pouclass="STRUCTURE" iecname="Station_UDT">
+      <UserDefElement iecname="Station_Number" type="T_INT" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Product_Present_PE" type="T_BOOL" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Block" type="T_BOOL" byteoffset="3" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Release" type="T_BOOL" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Run_Motor" type="T_BOOL" byteoffset="5" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_SysComSettingsEx" size="16" nativesize="16" typeclass="Userdef" pouclass="STRUCTURE" iecname="SysComSettingsEx">
+      <UserDefElement iecname="byByteSize" type="T_BYTE" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bBinary" type="T_BOOL" byteoffset="1" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bOutxCtsFlow" type="T_BOOL" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bOutxDsrFlow" type="T_BOOL" byteoffset="3" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bDtrControl" type="T_BOOL" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bDsrSensitivity" type="T_BOOL" byteoffset="5" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bRtsControl" type="T_BOOL" byteoffset="6" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bTXContinueOnXoff" type="T_BOOL" byteoffset="7" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bOutX" type="T_BOOL" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bInX" type="T_BOOL" byteoffset="9" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="byXonChar" type="T_BYTE" byteoffset="10" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="byXoffChar" type="T_BYTE" byteoffset="11" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wXonLim" type="T_WORD" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wXoffLim" type="T_WORD" byteoffset="14" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_VERSION" size="8" nativesize="8" typeclass="Userdef" pouclass="STRUCTURE" iecname="VERSION">
+      <UserDefElement iecname="uiMajor" type="T_UINT" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="uiMinor" type="T_UINT" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="uiServicePack" type="T_UINT" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="uiPatch" type="T_UINT" byteoffset="6" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeSimple name="T_XWORD" size="4" swapsize="4" typeclass="DWord" iecname="XWORD" aliasedtype="T_DWORD" aliasediecname="DWORD" />
+    <TypeUserDef name="T_eLogLevel" size="2" nativesize="2" swapsize="2" typeclass="Enum" iecname="eLogLevel" basetype="T_INT">
+      <UserDefElement type="T_eLogLevel" iecname="Overload" enumvalue="0" />
+      <UserDefElement type="T_eLogLevel" iecname="None" enumvalue="1" />
+      <UserDefElement type="T_eLogLevel" iecname="All" enumvalue="2" />
+    </TypeUserDef>
+    <TypeUserDef name="T_eOverloadAction" size="2" nativesize="2" swapsize="2" typeclass="Enum" iecname="eOverloadAction" basetype="T_INT">
+      <UserDefElement type="T_eOverloadAction" iecname="None" enumvalue="0" />
+      <UserDefElement type="T_eOverloadAction" iecname="ThrowProcessorLoadException" enumvalue="1" />
+    </TypeUserDef>
+    <TypeUserDef name="T_eResultCode" size="2" nativesize="2" swapsize="2" typeclass="Enum" iecname="eResultCode" basetype="T_WORD">
+      <UserDefElement type="T_eResultCode" iecname="OK" enumvalue="0" />
+      <UserDefElement type="T_eResultCode" iecname="EPERM" enumvalue="1" />
+      <UserDefElement type="T_eResultCode" iecname="ENOENT" enumvalue="2" />
+      <UserDefElement type="T_eResultCode" iecname="ESRCH" enumvalue="3" />
+      <UserDefElement type="T_eResultCode" iecname="EINTR" enumvalue="4" />
+      <UserDefElement type="T_eResultCode" iecname="EIO" enumvalue="5" />
+      <UserDefElement type="T_eResultCode" iecname="ENXIO" enumvalue="6" />
+      <UserDefElement type="T_eResultCode" iecname="E2BIG" enumvalue="7" />
+      <UserDefElement type="T_eResultCode" iecname="ENOEXEC" enumvalue="8" />
+      <UserDefElement type="T_eResultCode" iecname="EBADF" enumvalue="9" />
+      <UserDefElement type="T_eResultCode" iecname="ECHILD" enumvalue="10" />
+      <UserDefElement type="T_eResultCode" iecname="EAGAIN" enumvalue="11" />
+      <UserDefElement type="T_eResultCode" iecname="ENOMEM" enumvalue="12" />
+      <UserDefElement type="T_eResultCode" iecname="EACCES" enumvalue="13" />
+      <UserDefElement type="T_eResultCode" iecname="EFAULT" enumvalue="14" />
+      <UserDefElement type="T_eResultCode" iecname="ENOTBLK" enumvalue="15" />
+      <UserDefElement type="T_eResultCode" iecname="EBUSY" enumvalue="16" />
+      <UserDefElement type="T_eResultCode" iecname="EEXIST" enumvalue="17" />
+      <UserDefElement type="T_eResultCode" iecname="EXDEV" enumvalue="18" />
+      <UserDefElement type="T_eResultCode" iecname="ENODEV" enumvalue="19" />
+      <UserDefElement type="T_eResultCode" iecname="ENOTDIR" enumvalue="20" />
+      <UserDefElement type="T_eResultCode" iecname="EISDIR" enumvalue="21" />
+      <UserDefElement type="T_eResultCode" iecname="EINVAL" enumvalue="22" />
+      <UserDefElement type="T_eResultCode" iecname="ENFILE" enumvalue="23" />
+      <UserDefElement type="T_eResultCode" iecname="EMFILE" enumvalue="24" />
+      <UserDefElement type="T_eResultCode" iecname="ENOTTY" enumvalue="25" />
+      <UserDefElement type="T_eResultCode" iecname="ETXTBSY" enumvalue="26" />
+      <UserDefElement type="T_eResultCode" iecname="EFBIG" enumvalue="27" />
+      <UserDefElement type="T_eResultCode" iecname="ENOSPC" enumvalue="28" />
+      <UserDefElement type="T_eResultCode" iecname="ESPIPE" enumvalue="29" />
+      <UserDefElement type="T_eResultCode" iecname="EROFS" enumvalue="30" />
+      <UserDefElement type="T_eResultCode" iecname="EMLINK" enumvalue="31" />
+      <UserDefElement type="T_eResultCode" iecname="EPIPE" enumvalue="32" />
+      <UserDefElement type="T_eResultCode" iecname="EDOM" enumvalue="33" />
+      <UserDefElement type="T_eResultCode" iecname="ERANGE" enumvalue="34" />
+      <UserDefElement type="T_eResultCode" iecname="EDEADLK" enumvalue="35" />
+      <UserDefElement type="T_eResultCode" iecname="ENAMETOOLONG" enumvalue="36" />
+      <UserDefElement type="T_eResultCode" iecname="ENOLCK" enumvalue="37" />
+      <UserDefElement type="T_eResultCode" iecname="ENOSYS" enumvalue="38" />
+      <UserDefElement type="T_eResultCode" iecname="ENOTEMPTY" enumvalue="39" />
+      <UserDefElement type="T_eResultCode" iecname="ELOOP" enumvalue="40" />
+      <UserDefElement type="T_eResultCode" iecname="EWOULDBLOCK" enumvalue="41" />
+      <UserDefElement type="T_eResultCode" iecname="ENOMSG" enumvalue="42" />
+      <UserDefElement type="T_eResultCode" iecname="EIDRM" enumvalue="43" />
+      <UserDefElement type="T_eResultCode" iecname="ECHRNG" enumvalue="44" />
+      <UserDefElement type="T_eResultCode" iecname="EL2NSYNC" enumvalue="45" />
+      <UserDefElement type="T_eResultCode" iecname="EL3HLT" enumvalue="46" />
+      <UserDefElement type="T_eResultCode" iecname="EL3RST" enumvalue="47" />
+      <UserDefElement type="T_eResultCode" iecname="ELNRNG" enumvalue="48" />
+      <UserDefElement type="T_eResultCode" iecname="EUNATCH" enumvalue="49" />
+      <UserDefElement type="T_eResultCode" iecname="ENOCSI" enumvalue="50" />
+      <UserDefElement type="T_eResultCode" iecname="EL2HLT" enumvalue="51" />
+      <UserDefElement type="T_eResultCode" iecname="EBADE" enumvalue="52" />
+      <UserDefElement type="T_eResultCode" iecname="EBADR" enumvalue="53" />
+      <UserDefElement type="T_eResultCode" iecname="EXFULL" enumvalue="54" />
+      <UserDefElement type="T_eResultCode" iecname="ENOANO" enumvalue="55" />
+      <UserDefElement type="T_eResultCode" iecname="EBADRQC" enumvalue="56" />
+      <UserDefElement type="T_eResultCode" iecname="EBADSLT" enumvalue="57" />
+      <UserDefElement type="T_eResultCode" iecname="EBFONT" enumvalue="59" />
+      <UserDefElement type="T_eResultCode" iecname="ENOSTR" enumvalue="60" />
+      <UserDefElement type="T_eResultCode" iecname="ENODATA" enumvalue="61" />
+      <UserDefElement type="T_eResultCode" iecname="ETIME" enumvalue="62" />
+      <UserDefElement type="T_eResultCode" iecname="ENOSR" enumvalue="63" />
+      <UserDefElement type="T_eResultCode" iecname="ENONET" enumvalue="64" />
+      <UserDefElement type="T_eResultCode" iecname="ENOPKG" enumvalue="65" />
+      <UserDefElement type="T_eResultCode" iecname="EREMOTE" enumvalue="66" />
+      <UserDefElement type="T_eResultCode" iecname="ENOLINK" enumvalue="67" />
+      <UserDefElement type="T_eResultCode" iecname="EADV" enumvalue="68" />
+      <UserDefElement type="T_eResultCode" iecname="ESRMNT" enumvalue="69" />
+      <UserDefElement type="T_eResultCode" iecname="ECOMM" enumvalue="70" />
+      <UserDefElement type="T_eResultCode" iecname="EPROTO" enumvalue="71" />
+      <UserDefElement type="T_eResultCode" iecname="EMULTIHOP" enumvalue="72" />
+      <UserDefElement type="T_eResultCode" iecname="EDOTDOT" enumvalue="73" />
+      <UserDefElement type="T_eResultCode" iecname="EBADMSG" enumvalue="74" />
+      <UserDefElement type="T_eResultCode" iecname="EOVERFLOW" enumvalue="75" />
+      <UserDefElement type="T_eResultCode" iecname="ENOTUNIQ" enumvalue="76" />
+      <UserDefElement type="T_eResultCode" iecname="EBADSTATE" enumvalue="77" />
+      <UserDefElement type="T_eResultCode" iecname="EREMCHG" enumvalue="78" />
+      <UserDefElement type="T_eResultCode" iecname="ELIBACC" enumvalue="79" />
+      <UserDefElement type="T_eResultCode" iecname="ELIBBAD" enumvalue="80" />
+      <UserDefElement type="T_eResultCode" iecname="ELIBSCN" enumvalue="81" />
+      <UserDefElement type="T_eResultCode" iecname="ELIBMAX" enumvalue="82" />
+      <UserDefElement type="T_eResultCode" iecname="ELIBEXEC" enumvalue="83" />
+      <UserDefElement type="T_eResultCode" iecname="EILSEQ" enumvalue="84" />
+      <UserDefElement type="T_eResultCode" iecname="ERESTART" enumvalue="85" />
+      <UserDefElement type="T_eResultCode" iecname="ESTRPIPE" enumvalue="86" />
+      <UserDefElement type="T_eResultCode" iecname="EUSERS" enumvalue="87" />
+      <UserDefElement type="T_eResultCode" iecname="ENOTSOCK" enumvalue="88" />
+      <UserDefElement type="T_eResultCode" iecname="EDESTADDRREQ" enumvalue="89" />
+      <UserDefElement type="T_eResultCode" iecname="EMSGSIZE" enumvalue="90" />
+      <UserDefElement type="T_eResultCode" iecname="EPROTOTYPE" enumvalue="91" />
+      <UserDefElement type="T_eResultCode" iecname="ENOPROTOOPT" enumvalue="92" />
+      <UserDefElement type="T_eResultCode" iecname="EPROTONOSUPPORT" enumvalue="93" />
+      <UserDefElement type="T_eResultCode" iecname="ESOCKTNOSUPPORT" enumvalue="94" />
+      <UserDefElement type="T_eResultCode" iecname="EOPNOTSUPP" enumvalue="95" />
+      <UserDefElement type="T_eResultCode" iecname="EPFNOSUPPORT" enumvalue="96" />
+      <UserDefElement type="T_eResultCode" iecname="EAFNOSUPPORT" enumvalue="97" />
+      <UserDefElement type="T_eResultCode" iecname="EADDRINUSE" enumvalue="98" />
+      <UserDefElement type="T_eResultCode" iecname="EADDRNOTAVAIL" enumvalue="99" />
+      <UserDefElement type="T_eResultCode" iecname="ENETDOWN" enumvalue="100" />
+      <UserDefElement type="T_eResultCode" iecname="ENETUNREACH" enumvalue="101" />
+      <UserDefElement type="T_eResultCode" iecname="ENETRESET" enumvalue="102" />
+      <UserDefElement type="T_eResultCode" iecname="ECONNABORTED" enumvalue="103" />
+      <UserDefElement type="T_eResultCode" iecname="ECONNRESET" enumvalue="104" />
+      <UserDefElement type="T_eResultCode" iecname="ENOBUFS" enumvalue="105" />
+      <UserDefElement type="T_eResultCode" iecname="EISCONN" enumvalue="106" />
+      <UserDefElement type="T_eResultCode" iecname="ENOTCONN" enumvalue="107" />
+      <UserDefElement type="T_eResultCode" iecname="ESHUTDOWN" enumvalue="108" />
+      <UserDefElement type="T_eResultCode" iecname="ETOOMANYREFS" enumvalue="109" />
+      <UserDefElement type="T_eResultCode" iecname="ETIMEDOUT" enumvalue="110" />
+      <UserDefElement type="T_eResultCode" iecname="ECONNREFUSED" enumvalue="111" />
+      <UserDefElement type="T_eResultCode" iecname="EHOSTDOWN" enumvalue="112" />
+      <UserDefElement type="T_eResultCode" iecname="EHOSTUNREACH" enumvalue="113" />
+      <UserDefElement type="T_eResultCode" iecname="EALREADY" enumvalue="114" />
+      <UserDefElement type="T_eResultCode" iecname="EINPROGRESS" enumvalue="115" />
+      <UserDefElement type="T_eResultCode" iecname="ESTALE" enumvalue="116" />
+      <UserDefElement type="T_eResultCode" iecname="EUCLEAN" enumvalue="117" />
+      <UserDefElement type="T_eResultCode" iecname="ENOTNAM" enumvalue="118" />
+      <UserDefElement type="T_eResultCode" iecname="ENAVAIL" enumvalue="119" />
+      <UserDefElement type="T_eResultCode" iecname="EISNAM" enumvalue="120" />
+      <UserDefElement type="T_eResultCode" iecname="EREMOTEIO" enumvalue="121" />
+      <UserDefElement type="T_eResultCode" iecname="EDQUOT" enumvalue="122" />
+      <UserDefElement type="T_eResultCode" iecname="ENOMEDIUM" enumvalue="123" />
+      <UserDefElement type="T_eResultCode" iecname="EMEDIUMTYPE" enumvalue="124" />
+      <UserDefElement type="T_eResultCode" iecname="ECANCELED" enumvalue="125" />
+      <UserDefElement type="T_eResultCode" iecname="ENOKEY" enumvalue="126" />
+      <UserDefElement type="T_eResultCode" iecname="EKEYEXPIRED" enumvalue="127" />
+      <UserDefElement type="T_eResultCode" iecname="EKEYREVOKED" enumvalue="128" />
+      <UserDefElement type="T_eResultCode" iecname="EKEYREJECTED" enumvalue="129" />
+      <UserDefElement type="T_eResultCode" iecname="EOWNERDEAD" enumvalue="130" />
+      <UserDefElement type="T_eResultCode" iecname="ENOTRECOVERABLE" enumvalue="131" />
+      <UserDefElement type="T_eResultCode" iecname="EDEFAULT" enumvalue="132" />
+      <UserDefElement type="T_eResultCode" iecname="EPENDING" enumvalue="133" />
+      <UserDefElement type="T_eResultCode" iecname="ETERMINATED" enumvalue="134" />
+      <UserDefElement type="T_eResultCode" iecname="EUNSPECIFIC" enumvalue="135" />
+      <UserDefElement type="T_eResultCode" iecname="EDISABLED" enumvalue="136" />
+      <UserDefElement type="T_eResultCode" iecname="EREJECTED" enumvalue="137" />
+      <UserDefElement type="T_eResultCode" iecname="ENOSUCCESS" enumvalue="138" />
+      <UserDefElement type="T_eResultCode" iecname="EBREAKPT" enumvalue="139" />
+      <UserDefElement type="T_eResultCode" iecname="ETIMEINFO" enumvalue="140" />
+      <UserDefElement type="T_eResultCode" iecname="EAPP" enumvalue="200" />
+      <UserDefElement type="T_eResultCode" iecname="EAPPMAX" enumvalue="999" />
+      <UserDefElement type="T_eResultCode" iecname="EMAX" enumvalue="32767" />
+    </TypeUserDef>
+    <TypeUserDef name="T_eTTYHandshake" size="2" nativesize="2" swapsize="2" typeclass="Enum" iecname="eTTYHandshake" basetype="T_INT">
+      <UserDefElement type="T_eTTYHandshake" iecname="Default" enumvalue="0" />
+      <UserDefElement type="T_eTTYHandshake" iecname="None" enumvalue="1" />
+      <UserDefElement type="T_eTTYHandshake" iecname="XON_XOFF" enumvalue="2" />
+      <UserDefElement type="T_eTTYHandshake" iecname="Hardware_DTE_RTSCTS" enumvalue="3" />
+      <UserDefElement type="T_eTTYHandshake" iecname="Hardware_DCE_RTSCTS" enumvalue="4" />
+      <UserDefElement type="T_eTTYHandshake" iecname="Hardware_DTE_DSRDTR" enumvalue="5" />
+      <UserDefElement type="T_eTTYHandshake" iecname="Hardware_DCE_DSRDTR" enumvalue="6" />
+      <UserDefElement type="T_eTTYHandshake" iecname="Hardware_RTS_LeadTime" enumvalue="7" />
+    </TypeUserDef>
+    <TypeUserDef name="T_eTTYPhysicalLayer" size="2" nativesize="2" swapsize="2" typeclass="Enum" iecname="eTTYPhysicalLayer" basetype="T_INT">
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="Default" enumvalue="0" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="RS232" enumvalue="1" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="RS422" enumvalue="2" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="RS423" enumvalue="3" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="RS485_HalfDuplex" enumvalue="4" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="RS485_FullDuplex" enumvalue="5" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="DMX_HalfDuplex" enumvalue="6" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="RS232_No_SC" enumvalue="11" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="RS422_No_SC" enumvalue="12" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="RS485_HalfDuplex_No_SC" enumvalue="14" />
+      <UserDefElement type="T_eTTYPhysicalLayer" iecname="RS485_FullDuplex_No_SC" enumvalue="15" />
+    </TypeUserDef>
+    <TypeArray name="T_ARRAY__0__13__OF_Manual_Motor_UDT" size="84" nativesize="84" typeclass="Array" iecname="ARRAY [0..13] OF Manual_Motor_UDT" basetype="T_Manual_Motor_UDT">
+      <ArrayDim minrange="0" maxrange="13" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__13__OF_Motor_Feedback_UDT" size="140" nativesize="140" typeclass="Array" iecname="ARRAY [0..13] OF Motor_Feedback_UDT" basetype="T_Motor_Feedback_UDT">
+      <ArrayDim minrange="0" maxrange="13" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__13__OF_Motor_UDT" size="224" nativesize="224" typeclass="Array" iecname="ARRAY [0..13] OF Motor_UDT" basetype="T_Motor_UDT">
+      <ArrayDim minrange="0" maxrange="13" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__2__OF_Light_Stack_State_UDT" size="18" nativesize="18" typeclass="Array" iecname="ARRAY [0..2] OF Light_Stack_State_UDT" basetype="T_Light_Stack_State_UDT">
+      <ArrayDim minrange="0" maxrange="2" />
+    </TypeArray>
+    <TypeArray name="T_ARRAY__0__4__OF_Station_UDT" size="30" nativesize="30" typeclass="Array" iecname="ARRAY [0..4] OF Station_UDT" basetype="T_Station_UDT">
+      <ArrayDim minrange="0" maxrange="4" />
+    </TypeArray>
+    <TypeUserDef name="T_Fault_UDT" size="22" nativesize="22" typeclass="Userdef" pouclass="STRUCTURE" iecname="Fault_UDT">
+      <UserDefElement iecname="Motor" type="T_ARRAY__0__13__OF_BOOL" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="UR" type="T_BOOL" byteoffset="14" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="FANUC" type="T_BOOL" byteoffset="15" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Station" type="T_ARRAY__0__4__OF_BOOL" byteoffset="16" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Gate" type="T_BOOL" byteoffset="21" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_FbGetKbusDrvRef" size="13" nativesize="20" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="FbGetKbusDrvRef">
+      <UserDefElement iecname="_xValidData" type="T_BOOL" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_usiSlotNo" type="T_USINT" byteoffset="1" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_wModuleType" type="T_UINT" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_dwInstance" type="T_UDINT" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_pConnector" type="T_POINTER_TO_IoStandard_IoConfigConnector" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_xAutoInit" type="T_BOOL" byteoffset="12" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Frame_Data_UDT" size="48" nativesize="48" typeclass="Userdef" pouclass="STRUCTURE" iecname="Frame_Data_UDT">
+      <UserDefElement iecname="Frame_Number" type="T_INT" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="RFID_Tag" type="T_INT" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Product_ID" type="T_STRING_20_" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Weld_Time" type="T_TIME" byteoffset="28" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Paint_Time" type="T_TIME" byteoffset="32" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Paint_Status" type="T_ARRAY__0__5__OF_BOOL" byteoffset="36" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Weld_Status" type="T_ARRAY__0__5__OF_BOOL" byteoffset="42" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_IoConfigChannelMap" size="20" nativesize="20" typeclass="Userdef" pouclass="STRUCTURE" iecname="IoConfigChannelMap">
+      <UserDefElement iecname="pParameter" type="T_POINTER_TO_IoConfigParameter" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="pbyIecAddress" type="T_POINTER_TO_BYTE" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wParameterBitOffset" type="T_WORD" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wIecAddressBitOffset" type="T_WORD" byteoffset="10" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wSize" type="T_WORD" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wDummy" type="T_WORD" byteoffset="14" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="dwDriverSpecific" type="T_XWORD" byteoffset="16" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_IoConfigConnectorMap" size="16" nativesize="16" typeclass="Userdef" pouclass="STRUCTURE" iecname="IoConfigConnectorMap">
+      <UserDefElement iecname="pConnector" type="T_POINTER_TO_IoStandard_IoConfigConnector" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="dwIoMgrSpecific" type="T_XWORD" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="dwNumOfChannels" type="T_DWORD" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="pChannelMapList" type="T_POINTER_TO_IoConfigChannelMap" byteoffset="12" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_IoConfigParameter" size="20" nativesize="20" typeclass="Userdef" pouclass="STRUCTURE" iecname="IoConfigParameter">
+      <UserDefElement iecname="dwParameterId" type="T_DWORD" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="dwValue" type="T_XWORD" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wType" type="T_WORD" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wLen" type="T_WORD" byteoffset="10" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="dwFlags" type="T_DWORD" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="dwDriverSpecific" type="T_XWORD" byteoffset="16" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_IoConfigTaskMap" size="12" nativesize="12" typeclass="Userdef" pouclass="STRUCTURE" iecname="IoConfigTaskMap">
+      <UserDefElement iecname="dwTaskId" type="T_DWORD" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wType" type="T_WORD" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wNumOfConnectorMap" type="T_WORD" byteoffset="6" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="pConnectorMapList" type="T_POINTER_TO_IoConfigConnectorMap" byteoffset="8" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_IoDrvEtherNetIP" size="12" nativesize="156848" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="IoDrvEtherNetIP" basetype="T_IoDrvBase">
+      <UserDefElement iecname="xReset" type="T_BOOL" byteoffset="0" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="eState" type="T_ScannerState" byteoffset="2" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="eError" type="T_ERROR" byteoffset="4" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="s_udiLastInstance" type="T_UDINT" byteoffset="8" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_IoDrvEthernet" size="2" nativesize="804" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="IoDrvEthernet" basetype="T_IoDrvBase">
+      <UserDefElement iecname="eState" type="T_EthernetState" byteoffset="0" vartype="VAR_OUTPUT" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeSimple name="T_REFERENCE_TO_Motor_UDT_REF" size="15" swapsize="0" typeclass="Reference" iecname="REFERENCE TO Motor_UDT_REF" basetype="T_Motor_UDT" />
+    <TypeSimple name="T_RTS_IEC_HANDLE" size="4" swapsize="4" typeclass="Pointer" iecname="RTS_IEC_HANDLE" aliasedtype="T_POINTER_TO_BYTE" aliasediecname="POINTER TO BYTE" />
+    <TypeSimple name="T_RTS_IEC_HANDLE_1" size="4" swapsize="4" typeclass="Pointer" iecname="RTS_IEC_HANDLE" aliasedtype="T_POINTER_TO_BYTE" aliasediecname="POINTER TO BYTE" />
+    <TypeUserDef name="T_RemoteAdapter" size="86" nativesize="12456" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="RemoteAdapter" basetype="T_Element">
+      <UserDefElement iecname="xReset" type="T_BOOL" byteoffset="0" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="xAcknowledge" type="T_BOOL" byteoffset="1" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="eState" type="T_AdapterState" byteoffset="2" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="xDiagnosticAvailable" type="T_BOOL" byteoffset="4" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="sDiagString" type="T_STRING" byteoffset="5" vartype="VAR_OUTPUT" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_SysCom_COM_SettingsEx" size="16" nativesize="16" typeclass="Userdef" pouclass="STRUCTURE" iecname="SysCom.COM_SettingsEx" aliasedtype="T_SysComSettingsEx" aliasediecname="SysComSettingsEx">
+      <UserDefElement iecname="byByteSize" type="T_BYTE" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bBinary" type="T_BOOL" byteoffset="1" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bOutxCtsFlow" type="T_BOOL" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bOutxDsrFlow" type="T_BOOL" byteoffset="3" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bDtrControl" type="T_BOOL" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bDsrSensitivity" type="T_BOOL" byteoffset="5" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bRtsControl" type="T_BOOL" byteoffset="6" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bTXContinueOnXoff" type="T_BOOL" byteoffset="7" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bOutX" type="T_BOOL" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="bInX" type="T_BOOL" byteoffset="9" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="byXonChar" type="T_BYTE" byteoffset="10" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="byXoffChar" type="T_BYTE" byteoffset="11" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wXonLim" type="T_WORD" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wXoffLim" type="T_WORD" byteoffset="14" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeSimple name="T_WagoClientIdentification" size="4" swapsize="4" typeclass="Pointer" iecname="WagoClientIdentification" aliasedtype="T_POINTER_TO_BYTE" aliasediecname="POINTER TO BYTE" />
+    <TypeUserDef name="T_AMZN_Data_UDT" size="164" nativesize="164" typeclass="Userdef" pouclass="STRUCTURE" iecname="AMZN_Data_UDT">
+      <UserDefElement iecname="Motor_Feedback" type="T_ARRAY__0__13__OF_Motor_Feedback_UDT" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="UR_Feedback" type="T_UR_Feedback_UDT" byteoffset="140" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Fanuc_Feedback" type="T_Fanuc_Feedback_UDT" byteoffset="140" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="EStop_Active" type="T_ARRAY__0__4__OF_BOOL" byteoffset="140" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="LiDar_Stop_Active" type="T_BOOL" byteoffset="145" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="Light_Stack_State" type="T_ARRAY__0__2__OF_Light_Stack_State_UDT" byteoffset="146" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeArray name="T_ARRAY__0__300__OF_Frame_Data_UDT" size="14448" nativesize="14448" typeclass="Array" iecname="ARRAY [0..300] OF Frame_Data_UDT" basetype="T_Frame_Data_UDT">
+      <ArrayDim minrange="0" maxrange="300" />
+    </TypeArray>
+    <TypeUserDef name="T_FbSerialInterface_internal" size="48" nativesize="76" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="FbSerialInterface_internal">
+      <UserDefElement iecname="_IComSniffer" type="T_TYPE_REFERENCE" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_handle" type="T_RTS_IEC_HANDLE_1" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_rtsResult" type="T_RTS_IEC_RESULT" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_xConnected" type="T_BOOL" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_ExtendedSettings" type="T_SysCom_COM_SettingsEx" byteoffset="14" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_ePhysical" type="T_eTTYPhysicalLayer" byteoffset="30" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_eHandshake" type="T_eTTYHandshake" byteoffset="32" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_udiLogicalNumber" type="T_UDINT" byteoffset="36" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_client" type="T_WagoClientIdentification" byteoffset="40" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_deferredresult" type="T_eResultCode" byteoffset="44" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_iInternalNumberRep" type="T_INT" byteoffset="46" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_FbSysProcessorLoad" size="32" nativesize="36" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="FbSysProcessorLoad">
+      <UserDefElement iecname="usiLoad" type="T_USINT" byteoffset="0" vartype="VAR_OUTPUT" access="ReadWrite" />
+      <UserDefElement iecname="_udiInterval_us" type="T_UDINT" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_usiThreshold1" type="T_USINT" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_usiThreshold2" type="T_USINT" byteoffset="9" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_usiIecShare" type="T_USINT" byteoffset="10" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_udiOverloadTriggerLevel" type="T_UDINT" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_usiLoad" type="T_USINT" byteoffset="16" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_bHandleOverloadEvent" type="T_BOOL" byteoffset="17" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_eOverloadAction" type="T_eOverloadAction" byteoffset="18" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_eLogLevel" type="T_eLogLevel" byteoffset="20" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_hTask" type="T_RTS_IEC_HANDLE" byteoffset="24" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_hPrivate" type="T_RTS_IEC_HANDLE" byteoffset="28" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_IoConfigConnector" size="24" nativesize="24" typeclass="Userdef" pouclass="STRUCTURE" iecname="IoConfigConnector">
+      <UserDefElement iecname="wType" type="T_WORD" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="wOptions" type="T_WORD" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="dwFlags" type="T_DWORD" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="hIoDrv" type="T_RTS_IEC_HANDLE" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="dwNumOfParameters" type="T_DWORD" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="pParameterList" type="T_POINTER_TO_IoConfigParameter" byteoffset="16" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="pFather" type="T_POINTER_TO_IoStandard_IoConfigConnector" byteoffset="20" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeUserDef name="T_Motor_Control_FB" size="23" nativesize="16" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="Motor_Control_FB">
+      <UserDefElement iecname="Motor_IO" type="T_Motor_UDT" byteoffset="0" vartype="VAR_IN_OUT" access="ReadWrite" />
+      <UserDefElement iecname="Manual_Mode" type="T_Manual_Motor_UDT" byteoffset="16" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Station_Run_Call" type="T_BOOL" byteoffset="21" vartype="VAR_INPUT" access="ReadWrite" />
+      <UserDefElement iecname="Motor_Fault" type="T_BOOL" byteoffset="22" vartype="VAR_OUTPUT" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeArray name="T_ARRAY__0__13__OF_Motor_Control_FB" size="336" nativesize="224" typeclass="Array" iecname="ARRAY [0..13] OF Motor_Control_FB" basetype="T_Motor_Control_FB">
+      <ArrayDim minrange="0" maxrange="13" />
+    </TypeArray>
+    <TypeUserDef name="T_FbProcessorLoad" size="46" nativesize="56" typeclass="Userdef" pouclass="FUNCTION_BLOCK" iecname="FbProcessorLoad">
+      <UserDefElement iecname="_usiThreshold1" type="T_USINT" byteoffset="0" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_usiThreshold2" type="T_USINT" byteoffset="1" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_usiIecShare" type="T_USINT" byteoffset="2" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_usiThreshold1Abs" type="T_USINT" byteoffset="3" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_usiThreshold2Abs" type="T_USINT" byteoffset="4" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_eOverloadAction" type="T_eOverloadAction" byteoffset="6" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_eLogLevel" type="T_eLogLevel" byteoffset="8" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_processorLoad" type="T_FbSysProcessorLoad" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_isInitialized" type="T_BOOL" byteoffset="44" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="_isInstance0" type="T_BOOL" byteoffset="45" vartype="VAR" access="ReadWrite" />
+    </TypeUserDef>
+    <TypeSimple name="T_TYPE_REFERENCE" size="4" swapsize="4" typeclass="Userdef" iecname="TYPE_REFERENCE" />
+  </TypeList>
+  <NodeList>
+    <Node name="__MIO">
+      <Node name="InfoAreaSizeInput" type="T_DWORD" access="Read" />
+      <Node name="InfoAreaSizeMemory" type="T_DWORD" access="Read" />
+      <Node name="InfoAreaSizeOutput" type="T_DWORD" access="Read" />
+      <Node name="InfoBitWordAddressing" type="T_BOOL" access="Read" />
+      <Node name="InfoByteAddressing" type="T_BOOL" access="Read" />
+      <Node name="InfoWriteableInputs" type="T_BOOL" access="Read" />
+    </Node>
+    <Node name="Application">
+      <Node name="Constants">
+        <Node name="CompilerVersion" type="T_VERSION" access="Read" />
+        <Node name="RuntimeVersion" type="T_VERSION" access="Read" />
+      </Node>
+      <Node name="Conveyance">
+        <Node name="Motor_Control" type="T_ARRAY__0__13__OF_Motor_Control_FB" access="ReadWrite" />
+      </Node>
+      <Node name="ExceptionFlags">
+        <Node name="g_dwExFlags" type="T_DWORD" access="ReadWrite" />
+      </Node>
+      <Node name="GVL">
+        <Node name="AMZN_Data" type="T_AMZN_Data_UDT" access="ReadWrite" />
+        <Node name="Fault" type="T_Fault_UDT" access="ReadWrite" />
+        <Node name="Frame_data" type="T_ARRAY__0__300__OF_Frame_Data_UDT" access="ReadWrite" />
+        <Node name="Gate_Granted" type="T_BOOL" access="ReadWrite" />
+        <Node name="Gate_Request" type="T_BOOL" access="ReadWrite" />
+        <Node name="Motor" type="T_ARRAY__0__13__OF_Motor_UDT" access="ReadWrite" />
+        <Node name="Motor_Manual" type="T_ARRAY__0__13__OF_Manual_Motor_UDT" access="ReadWrite" />
+        <Node name="Production_Active" type="T_BOOL" access="ReadWrite" />
+        <Node name="Production_Mode" type="T_INT" access="ReadWrite" />
+        <Node name="Station" type="T_ARRAY__0__4__OF_Station_UDT" access="ReadWrite" />
+      </Node>
+      <Node name="HMI_Interface">
+        <Node name="HMI_Run" type="T_BOOL" access="Read" />
+        <Node name="i" type="T_INT" access="ReadWrite" />
+      </Node>
+      <Node name="IoConfig_Globals">
+        <Node name="COM1" type="T_FbSerialInterface_internal" access="ReadWrite" />
+        <Node name="Conveyor_Card0" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="Conveyor_Card1" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="Conveyor_Card2" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="Conveyor_Card3" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="Conveyor_Card4" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="Conveyor_Card5" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="Conveyor_Card6" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="CPX_FB36_EtherNet_IP_2_Port_Remote_I_O" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="DrmValidation" type="T_FbDrmValidation" access="ReadWrite" />
+        <Node name="Ethernet" type="T_IoDrvEthernet" access="ReadWrite" />
+        <Node name="EtherNet_IP_Scanner" type="T_IoDrvEtherNetIP" access="ReadWrite" />
+        <Node name="FANUC_Robot_R30iB_Plus" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="IO_Link0" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="IO_Link1" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="IO_Link2" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="IO_Link3" type="T_RemoteAdapter" access="ReadWrite" />
+        <Node name="Kbus" type="T_FbGetKbusDrvRef" access="ReadWrite" />
+        <Node name="ModbusTCP_Slave_Device" type="T_IoDrvModbusTCPSlave" access="ReadWrite" />
+        <Node name="nIoConfigTaskMapCount" type="T_DINT" access="ReadWrite" />
+        <Node name="pIoConfigTaskMap" type="T_POINTER_TO_IoConfigTaskMap" access="ReadWrite" />
+        <Node name="ProcessorLoad" type="T_FbProcessorLoad" access="ReadWrite" />
+        <Node name="Universal_Robot" type="T_RemoteAdapter" access="ReadWrite" />
+      </Node>
+      <Node name="IoDrvEtherNetIP">
+        <Node name="IoDrvEtherNetIP">
+          <Node name="s_udiLastInstance" type="T_UDINT" access="ReadWrite" />
+        </Node>
+      </Node>
+      <Node name="Production">
+        <Node name="Buffer_Station_1" type="T_Station_Control_FB" access="ReadWrite" />
+        <Node name="Buffer_Station_2" type="T_Station_Control_FB" access="ReadWrite" />
+        <Node name="HMI_TestBool" type="T_BOOL" access="ReadWrite" />
+        <Node name="HMI_TestInt" type="T_INT" access="ReadWrite" />
+        <Node name="Inspect_Station" type="T_Station_Control_FB" access="ReadWrite" />
+        <Node name="Paint_Station" type="T_Station_Control_FB" access="ReadWrite" />
+        <Node name="Weld_Station" type="T_Station_Control_FB" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
